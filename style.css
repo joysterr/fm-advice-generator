@@ -1,0 +1,91 @@
+:root {
+    /* primary colors */
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+
+    /* neutral */
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+
+    font-family: "Manrope", sans-serif;
+
+    background-color: var(--dark-blue);
+    color: var(--light-cyan);
+}
+
+.container {
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    max-width: 32rem;
+    width: 32rem;
+    
+    border-radius: 15px;
+
+    text-align: center;
+    
+    background-color: var(--dark-grayish-blue);
+}
+
+.advice-id {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+
+    color: var(--neon-green);
+}
+
+.advice {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.divider {
+    margin-bottom: 1rem;
+}
+
+.generate-btn {
+    position: absolute;
+    transform: translate(0px, 200px);
+
+    padding: 1.2rem;
+    border: none;
+    border-radius: 50%;
+
+    background-color: var(--neon-green);
+
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+.generate-btn:hover {
+    -webkit-box-shadow: 0px 0px 25px 0px var(--neon-green);
+    -moz-box-shadow: 0px 0px 25px 0px var(--neon-green);
+    box-shadow: 0px 0px 25px 0px var(--neon-green);
+}
+
+.generate-btn img {
+    display: block;
+    margin: 0 auto;
+}
