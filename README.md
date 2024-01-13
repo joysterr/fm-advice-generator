@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Advice generator app
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -21,14 +21,16 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/joysterr/fm-qr-code-component)
-- Live Site URL: [GitHub Pages](https://joysterr.github.io/fm-qr-code-component/)
+- Solution URL: [GitHub Repo](https://github.com/joysterr/fm-advice-generator)
+- Live Site URL: [GitHub Pages](https://joysterr.github.io/fm-advice-generator/)
 
 ## My process
 ### Built with
 
 - Simple HTML & CSS
 - CSS Flexbox
+- Responsive design
+- Javascript: fetch API
 
 ### Useful resources
 
