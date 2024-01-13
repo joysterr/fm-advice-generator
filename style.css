@@ -62,12 +62,13 @@ body {
 }
 
 .divider {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .generate-btn {
     position: absolute;
-    transform: translate(0px, 200px);
+    bottom: -1.6rem;
+    z-index: 1;
 
     padding: 1.2rem;
     border: none;
