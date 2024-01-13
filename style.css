@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 1rem;
     min-height: 100dvh;
 
     font-family: "Manrope", sans-serif;
@@ -39,7 +40,7 @@ body {
     align-items: center;
     padding: 3rem;
     max-width: 32rem;
-    width: 32rem;
+    width: 100%;
     
     border-radius: 15px;
 
@@ -65,6 +66,10 @@ body {
     margin-bottom: 2rem;
 }
 
+.divider img {
+    max-width: 100%;
+}
+
 .generate-btn {
     position: absolute;
     bottom: -1.6rem;
@@ -76,11 +81,14 @@ body {
 
     background-color: var(--neon-green);
 
+    transition: box-shadow .3s ease revert;
+
     aspect-ratio: 1;
     cursor: pointer;
 }
 
-.generate-btn:hover {
+.generate-btn:hover,
+.generate-btn:active {
     -webkit-box-shadow: 0px 0px 25px 0px var(--neon-green);
     -moz-box-shadow: 0px 0px 25px 0px var(--neon-green);
     box-shadow: 0px 0px 25px 0px var(--neon-green);
@@ -89,4 +97,17 @@ body {
 .generate-btn img {
     display: block;
     margin: 0 auto;
+}
+
+
+/* responsive design */
+
+/* mobile */
+@media (max-width: 400px) {
+    body {
+        padding: 0 1rem;
+    }
+    .container {
+        max-width: 100%;
+    }
 }
